@@ -1,9 +1,8 @@
 import os
 from dotenv import load_dotenv
-
+load_dotenv()
 # build agent
 from langchain_groq import ChatGroq
-from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 from langchain_tavily import TavilySearch
 
