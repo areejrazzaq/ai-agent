@@ -5,3 +5,4 @@ langchain-tavily
 fastapi
 pydantic
 uvicorn
+dotenv
