@@ -23,8 +23,9 @@ def get_response(request: RequestState):
         return {"error": "Invalid model name. Kindly select a valid AI model"}
 
     # Create AI Agent and get response from it! 
-    response= fetch_response_from_ai(request.user_query, request.allow_search, request.llm_id)
-    return response
+    # response= fetch_response_from_ai(request.user_query, request.allow_search, request.llm_id)
+    # return response
+    return {"message":"Vercel worked"}
 
 if __name__ == "__main__":
     # use unicorn to run 
